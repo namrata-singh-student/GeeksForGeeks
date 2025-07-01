@@ -12,3 +12,20 @@ class Solution {
         return minDiff;
     }
 };
+---------------------------------------------------
+  //Java Code
+  // User function Template for Java
+
+class Solution {
+    public int findMinDiff(ArrayList<Integer> arr, int m) {
+        // your code here
+        int n= arr.size();
+        Collections.sort(arr);
+        int minDiff = Integer.MAX_VALUE;
+        for(int i=0;i<= (n-m); i++){
+            int diff = arr.get(m+i-1) - arr.get(i);
+            minDiff = Math.min(diff, minDiff);
+        }
+        return minDiff;
+    }
+}
