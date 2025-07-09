@@ -22,12 +22,17 @@ class Solution {
         }
         s= s.substr(0,r-1);
         return s;
+        // int n =s.length();
         // stringstream ss(s);
-        // string token ;
-        // string result ="";
+        // string token="";
+        // string result = "";
         // while(ss >> token){
-        //     result = token+" "+result;
+        //     if(!result.empty()){
+        //         result = token+" "+result;
+        //     }else{
+        //         result =token;
+        //     }
         // }
-        // return result.substr(0,n-1);
+        // return result;
     }
 };
