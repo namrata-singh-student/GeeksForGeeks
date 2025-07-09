@@ -17,7 +17,6 @@ class Solution {
 };
 
 //java code
-
 class Solution {
     public String reverseString(String s) {
         char[] chars = s.toCharArray();
