@@ -20,7 +20,7 @@ class Solution {
         }
         return {repeatedNo , missNo};
 
-        //Better Approach--------------->>>>>>> TC= O(n), SC = O(1)
+        //Better Approach--------------->>>>>>> TC= O(n), SC = O(n)
         vector<int> hash(n + 1, 0);
         for(int i = 0; i<n ;i++){
             hash[arr[i]]++;
